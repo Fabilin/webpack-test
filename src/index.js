@@ -8,7 +8,7 @@ const chat = document.createElement('div')
 chat.innerHTML = `
 <div id="chat-circle" class="btn btn-raised">
         <div id="chat-overlay"></div>
-        <img src="images/botchat.png"/>
+        <img src="https://doc.tock.ai/fr/images/botchat.png"/>
     </div>
 
     <div class="chat-box">
