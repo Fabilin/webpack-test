@@ -1,8 +1,6 @@
 import '@fortawesome/fontawesome-free/js/fontawesome'
 import '@fortawesome/fontawesome-free/js/solid'
 import '@fortawesome/fontawesome-free/js/regular'
-import '@fortawesome/fontawesome-free/js/brands'
-import "@fortawesome/fontawesome-free/css/all.css";
 import {renderChat} from 'tock-react-kit'
 import $ from 'jquery'
 
@@ -16,7 +14,7 @@ chat.innerHTML = `
     <div class="chat-box">
         <div class="chat-box-header">
             Parlons un peu de Tock...
-            <span class="chat-box-toggle"><span class="icon fa-window-close">[X]</span></span>
+            <span class="chat-box-toggle"><span class="fas fa-window-close"></span></span>
         </div>
         <div class="chat-box-body">
             <div class="chat-box-overlay">
